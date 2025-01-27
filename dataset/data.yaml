@@ -1,0 +1,6 @@
+train: D:/PythonProjects/Thi_giac_may_tinh/dataset/train/images
+val: D:/PythonProjects/Thi_giac_may_tinh/dataset/valid/images
+test: D:/PythonProjects/Thi_giac_may_tinh/dataset/test/images
+
+nc: 1
+names: ['hand']
