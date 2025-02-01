@@ -1,8 +1,8 @@
 task: detect
 mode: train
-model: weights/yolo11m.yaml
+model: weights/yolo11n.yaml
 data: ./dataset/data.yaml
-epochs: 30
+epochs: 50
 time: null
 patience: 100
 batch: 4
