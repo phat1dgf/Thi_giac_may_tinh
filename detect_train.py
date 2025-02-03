@@ -4,7 +4,7 @@ import torch
 if __name__ == '__main__':
     print(torch.cuda.is_available())
     torch.cuda.empty_cache()
-    MODEL_PATH = "weights/yolo11n.pt"
+    MODEL_PATH = "weights/yolo11s.yaml"
 
     model = YOLO(MODEL_PATH)
 
